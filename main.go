@@ -1,6 +1,7 @@
 package main
-import "fmt"
-
+import ("fmt",
+ "go-starter/arr"
+)
 func main() {
 	// var  a  int
 	// var  s string
@@ -15,7 +16,9 @@ func main() {
 	// fmt.Println(a)
 	// fmt.Println(hasAny)
 
-	fmt.Println(n1)
-	fmt.Println(n2)
-	fmt.Println(n3)
+	// fmt.Println(n1)
+	// fmt.Println(n2)
+	// fmt.Println(n3)
+
+	fmt.Println(arr.numArr) 
 }
